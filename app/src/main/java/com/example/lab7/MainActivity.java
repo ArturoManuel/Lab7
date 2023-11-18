@@ -31,8 +31,11 @@ import java.util.Objects;
 
 public class MainActivity extends AppCompatActivity {
     ActivityMainBinding mainBinding;
-    private FirebaseAuth mAuth; 
+    private FirebaseAuth mAuth;
     private FirebaseFirestore db;
+
+    /// usuarios :  usuarioB@gmail.com
+    // usuarios : gestorA@gmail.com
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
